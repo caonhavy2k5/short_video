@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: dialogue = {
+    "en": [
+        "View failure as a lesson, not a defeat.",
+        "Every mistake helps you grow stronger and smarter.",
+        "Keep learning from your challenges.",
+        "They are stepping stones.",
+        "Turn them into your future success.",
+        "Keep growing!"
+    ],
+    "vi": [
+        "Hãy xem thất bại là bài học, không phải sự thua cuộc.",
+        "Mỗi sai lầm đều giúp bạn trưởng thành và thông minh hơn.",
+        "Hãy tiếp tục học hỏi từ những thử thách.",
+        "Đó chính là những bước đệm cần thiết.",
+        "Hãy biến chúng thành thành công trong tương lai.",
+        "Hãy luôn phát triển nhé!"
+    ]
+}
+phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)

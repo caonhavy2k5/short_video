@@ -1,0 +1,18 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+dialogue = {
+    "en": [
+        "Be kind to yourself and forgive your mistakes.",
+        "Healing begins when you let go of guilt.",
+        "You are human, and you deserve a second chance.",
+        "Embrace your imperfections with love.",
+        "Start fresh each day with a peaceful heart."
+    ],
+    "vi": [
+        "Hãy tử tế và học cách tha thứ cho lỗi lầm của chính mình.",
+        "Sự chữa lành bắt đầu khi bạn buông bỏ mặc cảm.",
+        "Bạn là con người, bạn xứng đáng với cơ hội thứ hai.",
+        "Hãy ôm lấy những khiếm khuyết của bản thân bằng tình yêu.",
+        "Hãy bắt đầu lại mỗi ngày với một trái tim bình yên."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào) và ảnh sau khác với các ảnh đã tạo trước đó

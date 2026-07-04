@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: dialogue = {
+"en":[
+"Challenges happen every day.",
+"But look closely there is always something good.",
+"A warm coffee, a kind word.",
+"Focus on the small joys.",
+"They make life brighter.",
+"Stay positive!"
+],
+
+"vi":[
+    "Thử thách có ở khắp nơi.",
+    "Nhưng hãy nhìn kỹ luôn có điều tốt đẹp.",
+    "Một tách cà phê ấm, một lời tử tế.",
+    "Hãy tập trung vào những niềm vui nhỏ bé.",
+    "Chúng làm cuộc sống tươi sáng hơn.",
+    "Hãy luôn lạc quan nhé!"
+]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)

@@ -1,0 +1,18 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: dialogue = {
+    "en": [
+        "Small steps lead to big change.",
+        "Success is built on daily patience.",
+        "Don't underestimate the power of consistency.",
+        "Keep moving forward with purpose.",
+        "Even tiny progress counts as victory.",
+        "Persistence turns small efforts into greatness."
+    ],
+    "vi": [
+        "Những bước nhỏ tạo nên thay đổi lớn.",
+        "Thành công được xây dựng từ sự kiên nhẫn mỗi ngày.",
+        "Đừng coi thường sức mạnh của sự bền bỉ.",
+        "Hãy tiếp tục tiến về phía trước với mục tiêu rõ ràng.",
+        "Ngay cả những tiến bộ nhỏ nhất cũng là chiến thắng.",
+        "Sự kiên trì biến nỗ lực nhỏ bé thành kỳ tích."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi
