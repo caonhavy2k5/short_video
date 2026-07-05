@@ -1,0 +1,22 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:  
+   
+dialogue = {
+    "en": [
+        "Focus",
+        "A single, clear goal clarifies your path.",
+        "When you chase two rabbits, you catch neither.",
+        "Channel all your energy into one main priority.",
+        "Distractions fade when your vision is sharp.",
+        "Deep work yields the most meaningful results.",
+        "Stay focused and turn vision into reality."
+    ],
+    "vi": [
+        "Sự tập trung",
+        "Một mục tiêu duy nhất làm rõ con đường của bạn.",
+        "Nếu đuổi theo hai con thỏ, bạn sẽ chẳng bắt được con nào.",
+        "Hãy dồn hết năng lượng vào một ưu tiên quan trọng nhất.",
+        "Những xao nhãng sẽ tan biến khi tầm nhìn của bạn sắc bén.",
+        "Sự tập trung sâu sắc mang lại những kết quả ý nghĩa nhất.",
+        "Hãy giữ vững sự tập trung để biến tầm nhìn thành hiện thực."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  Yêu Cầu: ảnh mới không trùng nội dung và cấu trúc với ảnh đã tạo trước đó

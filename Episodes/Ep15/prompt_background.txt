@@ -1,0 +1,22 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:  
+   
+dialogue = {
+    "en": [
+        "Valuing Friends",
+        "True friends are your most priceless treasures.",
+        "They walk with you through every season of life.",
+        "Cherish the bonds that bring joy and support.",
+        "Kindness to friends strengthens the soul.",
+        "Good relationships make the journey worthwhile.",
+        "Always make time for those who matter."
+    ],
+    "vi": [
+        "Trân trọng bạn bè",
+        "Những người bạn thật sự là tài sản vô giá nhất.",
+        "Họ cùng bạn bước qua mọi thăng trầm của cuộc đời.",
+        "Hãy trân trọng những gắn kết mang lại niềm vui và sự hỗ trợ.",
+        "Sự tử tế với bạn bè giúp tâm hồn thêm mạnh mẽ.",
+        "Những mối quan hệ tốt đẹp khiến hành trình thêm ý nghĩa.",
+        "Luôn dành thời gian cho những người thực sự quan trọng."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  Yêu Cầu: ảnh mới không trùng nội dung và cấu trúc với ảnh đã tạo trước đó
