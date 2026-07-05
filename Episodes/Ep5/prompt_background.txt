@@ -1,0 +1,18 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+{
+    "en": [
+        "Gratitude shifts your perspective entirely.",
+        "Focus on what you have, not what you lack.",
+        "It turns challenges into lessons.",
+        "A grateful heart finds beauty everywhere.",
+        "Start today by cherishing small joys."
+    ],
+    "vi": [
+        "Lòng biết ơn thay đổi hoàn toàn góc nhìn của bạn.",
+        "Hãy tập trung vào những gì bạn có, không phải những gì còn thiếu.",
+        "Nó biến thử thách thành bài học quý giá.",
+        "Một trái tim biết ơn tìm thấy vẻ đẹp ở khắp nơi.",
+        "Hãy bắt đầu hôm nay bằng cách trân trọng những niềm vui nhỏ bé."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi

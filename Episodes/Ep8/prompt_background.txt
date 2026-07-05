@@ -1,0 +1,41 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:  
+   
+{
+
+    "en": [
+
+        "Patience",
+
+        "Great things take time to unfold.",
+
+        "Don't rush the process of your growth.",
+
+        "Everything beautiful needs space to bloom.",
+
+        "Trust the timing of your own journey.",
+
+        "Keep moving forward with quiet confidence.",
+
+        "Stay patient and keep blooming."
+
+    ],
+
+    "vi": [
+
+        "Sự kiên nhẫn",
+
+        "Mọi điều tuyệt vời đều cần thời gian để thành hình.",
+
+        "Đừng vội vã đốt cháy giai đoạn phát triển của bản thân.",
+
+        "Mọi vẻ đẹp đều cần không gian để nở rộ.",
+
+        "Hãy tin tưởng vào thời điểm riêng trong hành trình của bạn.",
+
+        "Hãy cứ tiếp tục tiến bước với sự tự tin thầm lặng.",
+
+        "Hãy kiên nhẫn và tiếp tục tỏa sáng."
+
+    ]
+
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi

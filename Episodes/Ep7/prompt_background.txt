@@ -1,0 +1,26 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+{
+    "en": [
+        "Present Moment",
+        "Life happens only in the here and now.",
+        "Don't let the past weigh you down.",
+        "Don't let the future create unnecessary worry.",
+        "Focus your full attention on this exact second.",
+        "Find peace by living fully in the present.",
+        "Embrace the beauty of today."
+    ],
+    "vi": [
+        "Sống trọn hiện tại",
+        "Cuộc sống chỉ thực sự diễn ra ở ngay đây và bây giờ.",
+        "Đừng để quá khứ kéo ghì lấy bạn.",
+        "Đừng để tương lai tạo ra những lo âu không cần thiết.",
+        "Hãy tập trung toàn bộ tâm trí vào giây phút hiện tại.",
+        "Tìm thấy bình yên bằng cách sống trọn vẹn hôm nay.",
+        "Hãy đón nhận vẻ đẹp của khoảnh khắc này."
+    ]
+} 
+
+phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi
