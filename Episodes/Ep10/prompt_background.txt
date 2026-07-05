@@ -1,0 +1,22 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:  
+   
+dialogue = {
+    "en": [
+        "Overcoming Fear",
+        "Fear is just a feeling, not a barrier.",
+        "When you face your fears, they lose their power.",
+        "Take one small step forward, even if you tremble.",
+        "Growth begins right outside your comfort zone.",
+        "Be brave and trust your inner strength.",
+        "Keep moving beyond your fear."
+    ],
+    "vi": [
+        "Đối mặt nỗi sợ",
+        "Nỗi sợ chỉ là một cảm giác, không phải bức tường ngăn cản.",
+        "Khi bạn đối diện, nỗi sợ sẽ mất đi quyền năng của nó.",
+        "Hãy bước một bước nhỏ về phía trước, dù bạn có run rẩy.",
+        "Sự phát triển bắt đầu ngay ngoài vùng an toàn của bạn.",
+        "Hãy dũng cảm và tin vào sức mạnh nội tại của chính mình.",
+        "Hãy không ngừng tiến bước vượt qua nỗi sợ."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  Yêu Cầu: ảnh mới không trùng nội dung và cấu trúc với ảnh đã tạo trước đó

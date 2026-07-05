@@ -1,0 +1,22 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:  
+   
+{
+    "en": [
+        "Consistency",
+        "Small, steady actions build great results.",
+        "It is better to go slow than to stop.",
+        "Your daily habits shape your future success.",
+        "Keep moving forward with steady focus.",
+        "Endurance wins over speed every time.",
+        "Stay consistent and keep growing."
+    ],
+    "vi": [
+        "Sự đều đặn",
+        "Những hành động nhỏ, đều đặn tạo nên kết quả lớn.",
+        "Đi chậm vẫn tốt hơn là dừng lại.",
+        "Những thói quen hàng ngày định hình thành công tương lai.",
+        "Hãy tiếp tục tiến bước với sự tập trung bền bỉ.",
+        "Sự kiên trì luôn chiến thắng tốc độ.",
+        "Hãy luôn đều đặn và không ngừng phát triển."
+    ]
+}phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi
