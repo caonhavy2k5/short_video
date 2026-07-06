@@ -1,0 +1,22 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+{
+    "en": [
+        "Trust",
+        "Trust is the foundation of every bond.",
+        "Consistency in actions builds true reliability.",
+        "Honesty is the bridge between two hearts.",
+        "It takes time to earn and moments to lose.",
+        "Mutual respect keeps the connection strong.",
+        "Choose to be trustworthy every single day."
+    ],
+    "vi": [
+        "Xây dựng niềm tin",
+        "Tin tưởng là nền tảng của mọi mối quan hệ.",
+        "Sự nhất quán trong hành động xây dựng lòng tin.",
+        "Sự chân thành là chiếc cầu nối giữa hai trái tim.",
+        "Cần nhiều thời gian để xây dựng và chỉ giây lát để đánh mất.",
+        "Sự tôn trọng lẫn nhau giữ cho kết nối bền chặt.",
+        "Hãy lựa chọn trở nên đáng tin cậy mỗi ngày."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi

@@ -1,0 +1,23 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/4 màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung: 
+   
+{
+    "en": [
+        "Positive Energy",
+        "Your energy shapes your reality.",
+        "Positive vibes attract positive outcomes.",
+        "What you project, you receive in return.",
+        "Keep your spirit high and clear.",
+        "Your inner light draws good things toward you.",
+        "Keep your positive energy"
+    ],
+    "vi": [
+        "Năng lượng tích cực",
+        "Năng lượng của bạn định hình thực tại của bạn.",
+        "Những rung động tích cực sẽ thu hút kết quả tốt đẹp.",
+        "Những gì bạn tỏa ra, bạn sẽ nhận lại tương xứng.",
+        "Hãy giữ cho tinh thần luôn cao đẹp và sáng suốt.",
+        "Ánh sáng nội tâm sẽ dẫn lối những điều tốt lành đến với bạn.",
+        "Hãy duy trì năng lượng tích cực"
+    ]
+
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)  bạn tạo ảnh khác đi ạ, ảnh này đã tạo rồi
