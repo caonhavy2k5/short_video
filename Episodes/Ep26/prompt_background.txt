@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Confidence",
+        "Believe in yourself and your abilities.",
+        "Every small success makes you stronger.",
+        "Do not fear mistakes because they help you learn.",
+        "Confidence grows when you keep moving forward."
+    ],
+    "vi": [
+        "Sự tự tin",
+        "Hãy tin vào bản thân và khả năng của mình.",
+        "Mỗi thành công nhỏ đều giúp bạn mạnh mẽ hơn.",
+        "Đừng sợ mắc sai lầm vì chúng giúp bạn học hỏi.",
+        "Sự tự tin lớn dần khi bạn không ngừng tiến về phía trước."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   tạo ảnh không trùng với ảnh trước đó và nhích nền ảnh sát mép trên của   
+ màn hình

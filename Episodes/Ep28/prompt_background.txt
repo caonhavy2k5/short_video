@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Balance",
+        "Work hard, but remember to rest.",
+        "A healthy balance gives you more energy.",
+        "Rest helps your body and mind stay strong.",
+        "Balance brings a happier and better life."
+    ],
+    "vi": [
+        "Sự cân bằng",
+        "Hãy làm việc chăm chỉ, nhưng đừng quên nghỉ ngơi.",
+        "Sự cân bằng lành mạnh mang đến nhiều năng lượng hơn.",
+        "Nghỉ ngơi giúp cơ thể và tâm trí luôn khỏe mạnh.",
+        "Sự cân bằng mang lại một cuộc sống hạnh phúc và tốt đẹp hơn."
+    ]
+}phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   tạo ảnh không trùng với ảnh trước đó và nhích nền ảnh sát mép trên của     
+ màn hình
