@@ -1,0 +1,34 @@
+ Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+
+    "en": [
+
+        "Reading",
+
+        "Books open doors to new worlds of wisdom.",
+
+        "Daily reading expands your mind and perspective.",
+
+        "Every page turned is a step toward growth.",
+
+        "Lifelong learning starts with a simple book."
+
+    ],
+
+    "vi": [
+
+        "Đọc sách",
+
+        "Sách mở ra những chân trời trí tuệ mới.",
+
+        "Đọc sách mỗi ngày giúp mở rộng tâm trí và tầm nhìn.",
+
+        "Mỗi trang sách lật mở là một bước tiến của sự trưởng thành.",
+
+        "Học tập suốt đời bắt đầu từ một cuốn sách đơn giản."
+
+    ]
+
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   tạo ảnh không trùng với ảnh trước đó và nhích nền ảnh sát mép trên của      
+ màn hình

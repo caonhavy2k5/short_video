@@ -1,0 +1,18 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Resilience",
+        "Every fall is a chance to stand up again.",
+        "Mistakes help you learn and become stronger.",
+        "Never give up when life gets difficult.",
+        "Keep moving forward with hope and courage."
+    ],
+    "vi": [
+        "Sự kiên cường",
+        "Mỗi lần vấp ngã là một cơ hội để đứng dậy.",
+        "Sai lầm giúp bạn học hỏi và trở nên mạnh mẽ hơn.",
+        "Đừng bao giờ bỏ cuộc khi cuộc sống trở nên khó khăn.",
+        "Hãy tiếp tục tiến về phía trước với hy vọng và lòng dũng cảm."
+    ]
+}phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   tạo ảnh không trùng với ảnh trước đó

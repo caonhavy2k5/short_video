@@ -1,0 +1,18 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Legacy",
+        "Your actions today define your lasting legacy.",
+        "Kindness leaves a mark on every heart.",
+        "Live with purpose and share your light.",
+        "Small positive deeds build a great future."
+    ],
+    "vi": [
+        "Di sản",
+        "Hành động hôm nay sẽ định hình di sản của bạn.",
+        "Sự tử tế để lại dấu ấn trong mỗi trái tim.",
+        "Hãy sống có mục đích và lan tỏa ánh sáng của bạn.",
+        "Những việc làm tốt đẹp nhỏ bé tạo nên tương lai rạng rỡ."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   tạo ảnh không trùng với ảnh trước đó
