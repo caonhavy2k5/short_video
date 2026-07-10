@@ -1,0 +1,21 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+{
+    "en": [
+        "Sleep Well",
+        "Prioritize 7-8 hours of quality sleep each night.",
+        "A consistent sleep schedule regulates your body clock.",
+        "Create a restful environment: cool, dark, and quiet.",
+        "Disconnect from screens one hour before bedtime.",
+        "Quality rest is essential for physical and mental restoration."
+    ],
+    "vi": [
+        "Giấc ngủ chất lượng",
+        "Ưu tiên ngủ đủ 7-8 tiếng mỗi đêm.",
+        "Lịch trình ngủ đều đặn giúp điều hòa đồng hồ sinh học.",
+        "Tạo không gian nghỉ ngơi: mát mẻ, tối và yên tĩnh.",
+        "Tắt các thiết bị điện tử một giờ trước khi đi ngủ.",
+        "Nghỉ ngơi chất lượng là điều cần thiết để phục hồi thể chất và tinh thần."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào) 
+   tạo ảnh không trùng với ảnh trước đó

@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Time Management",
+        "Use your time wisely to reach your goals.",
+        "Every small step today creates a better tomorrow.",
+        "Plan your day and stay focused on what matters.",
+        "Good time habits lead to a successful life."
+    ],
+    "vi": [
+        "Quản lý thời gian",
+        "Hãy sử dụng thời gian một cách khôn ngoan để đạt được mục tiêu.",
+        "Mỗi bước nhỏ hôm nay sẽ tạo nên một ngày mai tốt đẹp hơn.",
+        "Hãy lên kế hoạch cho ngày của bạn và tập trung vào điều quan trọng.",
+        "Thói quen quản lý thời gian tốt sẽ dẫn đến một cuộc sống thành công."
+    ]
+} phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)   
+   tạo ảnh không trùng với ảnh trước đó

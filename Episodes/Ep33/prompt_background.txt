@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Healthy Eating",
+        "Nourish your body with wholesome, fresh foods.",
+        "Good nutrition is fuel for your daily energy.",
+        "Eat well to feel vibrant and strong.",
+        "Small, healthy choices lead to better living."
+    ],
+    "vi": [
+        "Ăn uống lành mạnh",
+        "Nuôi dưỡng cơ thể bằng những thực phẩm tươi sạch.",
+        "Dinh dưỡng tốt là nguồn nhiên liệu cho năng lượng mỗi ngày.",
+        "Ăn uống tốt giúp bạn cảm thấy tràn đầy sức sống.",
+        "Những lựa chọn lành mạnh nhỏ bé dẫn đến cuộc sống khỏe mạnh."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào) 
+   tạo ảnh không trùng với ảnh trước đó, ảnh mang phong cách chân thực và hiện đại, không bo tròn bên dưới
