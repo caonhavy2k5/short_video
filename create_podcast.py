@@ -13,7 +13,7 @@ import edge_tts
 # CONFIG
 # =========================================================
 
-BASE_DIR = "Podcast/Ep3"
+BASE_DIR = "Podcast/Ep8"
 
 IMAGE = "podcast_prompt_image/background.png"
 
@@ -30,6 +30,10 @@ VIDEO_NO_AUDIO = f"{VIDEO_DIR}/video_no_audio.mp4"
 OUTPUT = f"{VIDEO_DIR}/final_video.mp4"
 
 FONT_PATH = "C:/Windows/Fonts/arial.ttf"
+
+THUMBNAIL = f"{BASE_DIR}/output/images/thumbnail.png"
+
+THUMBNAIL_DURATION = 2.0
 
 # Nếu chưa có thì tạo file rỗng
 
@@ -65,10 +69,6 @@ WAVE_HEIGHT = 25
 WAVE_COLOR = (255,255,255)
 
 
-# os.makedirs(VIDEO_DIR,exist_ok=True)
-
-# os.makedirs(os.path.dirname(AUDIO),exist_ok=True)
-
 # =========================================================
 # CREATE VOICE
 # =========================================================
@@ -77,7 +77,7 @@ async def create_voice(text):
     communicate = edge_tts.Communicate(
         text,
         VOICE,
-        rate="+5%"
+        rate="+0%"
     )
 
     if os.path.exists(AUDIO):
@@ -130,6 +130,8 @@ async def create_voice(text):
                 +
                 "\n"
             )
+    audio_file.close()
+    timestamp_file.close()   
 # =========================================================
 # LOAD TIMESTAMP
 # =========================================================
@@ -177,6 +179,85 @@ def load_timestamp():
 # BACKGROUND
 # =========================================================
 
+class ThumbnailManager:
+
+    def __init__(
+            self,
+            image_path,
+            width,
+            height,
+            fps,
+            duration=2.0,
+            zoom_start=1.0,
+            zoom_end=1.12,
+            pan_x=0.5,
+            pan_y=0.5
+    ):
+
+        self.width = width
+        self.height = height
+        self.frames = []
+
+        img = cv2.imread(image_path)
+
+        if img is None:
+            raise FileNotFoundError(image_path)
+
+        h, w = img.shape[:2]
+
+        total_frames = int(duration * fps)
+
+        for i in range(total_frames):
+
+            t = i / max(total_frames - 1, 1)
+
+            # SmoothStep
+            t = t * t * (3 - 2 * t)
+
+            scale = zoom_start + (zoom_end - zoom_start) * t
+
+            nw = int(w * scale)
+            nh = int(h * scale)
+
+            resized = cv2.resize(
+                img,
+                (nw, nh),
+                interpolation=cv2.INTER_LINEAR
+            )
+
+            cx = int(nw * pan_x)
+            cy = int(nh * pan_y)
+
+            x = max(
+                0,
+                min(
+                    cx - width // 2,
+                    nw - width
+                )
+            )
+
+            y = max(
+                0,
+                min(
+                    cy - height // 2,
+                    nh - height
+                )
+            )
+
+            frame = resized[
+                y:y + height,
+                x:x + width
+            ]
+
+            self.frames.append(frame)
+
+    def get_frame(self, index):
+
+        if index >= len(self.frames):
+            return self.frames[-1]
+
+        return self.frames[index]
+
 class Background:
 
     def __init__(self):
@@ -203,7 +284,7 @@ class SubtitleManager:
         self.timestamp=timestamp
         self.index=0
         self.cache={}
-        self.font=ImageFont.truetype(FONT_PATH,34)
+        self.font=ImageFont.truetype(FONT_PATH,42)
 
     # -------------------------------------
 
@@ -234,9 +315,6 @@ class SubtitleManager:
     # -------------------------------------
 
     def create_text(self,text):
-        if text in self.cache:
-            return self.cache[text]
-
         img=Image.new(
             "RGBA",
             (WIDTH,HEIGHT),
@@ -347,29 +425,42 @@ class SubtitleManager:
 
 class WaveVisualizer:
 
-    def __init__(
-            self,
-            audio_file,
-            duration
-    ):
+    def __init__(self, audio_file, duration):
 
+        audio = AudioSegment.from_file(audio_file)
 
-        audio=AudioSegment.from_file(audio_file)
+        samples = np.array(
+            audio.get_array_of_samples(),
+            dtype=np.float32
+        )
 
-        samples=np.array(audio.get_array_of_samples())
+        # Stereo -> Mono
+        if audio.channels == 2:
+            samples = samples.reshape((-1, 2)).mean(axis=1)
 
-        if audio.channels==2:
+        self.samples = samples
+        self.sample_rate = audio.frame_rate
 
-            samples=samples.reshape((-1,2))
+        self.total_frames = int(duration * FPS)
 
-            samples=samples.mean(axis=1)
+        self.step = max(
+            2048,
+            len(self.samples) // self.total_frames
+        )
 
-        self.samples=samples.astype(np.float32)
-        self.total_frames=int(duration*FPS)
-        self.step=max(2048,len(self.samples)//self.total_frames)
-        self.bars=WIDTH//(BAR_WIDTH+BAR_GAP)
-        self.position=np.zeros(self.bars)
-        self.velocity=np.zeros(self.bars)
+        self.bars = WIDTH // (BAR_WIDTH + BAR_GAP)
+
+        self.position = np.zeros(self.bars)
+        self.velocity = np.zeros(self.bars)
+        self.peaks = np.zeros(self.bars)
+
+        # Cache FFT
+        self.cache = []
+
+        print("Precompute waveform...")
+
+        for i in range(self.total_frames):
+            self.cache.append(self.analyze(i))
 
     # ---------------------------------
 
@@ -382,7 +473,7 @@ class WaveVisualizer:
 
         end=start+self.step
 
-        chunk=self.samples[start:end]
+        chunk=self.samples[start:end].copy()
 
         if len(chunk)<512:
 
@@ -414,7 +505,7 @@ class WaveVisualizer:
                 self.bars
             )
         )
-
+        
         return values*WAVE_HEIGHT
 
     def spring(
@@ -424,8 +515,10 @@ class WaveVisualizer:
 
         force=target-self.position
 
-        self.velocity+=force*0.12
-        self.velocity*=0.75
+        # self.velocity+=force*0.12
+        self.velocity+=force*0.35
+        # self.velocity*=0.75
+        self.velocity*=0.85
         self.position+=self.velocity
         self.position=np.clip(
             self.position,
@@ -440,13 +533,17 @@ class WaveVisualizer:
             frame,
             frame_index
     ):
-
-        target=self.analyze(frame_index)
-
+        #Mới
+        target = self.cache[frame_index] # Mới
+        
         heights=self.spring(target)
-
-        for i,h in enumerate(heights):
-
+        self.peaks = np.maximum(
+            self.peaks - 0.6,
+            heights
+        )
+    
+        # Mới
+        for i, h in enumerate(self.peaks):
             x=i*(BAR_WIDTH+BAR_GAP)
 
             h=int(h)
@@ -454,12 +551,12 @@ class WaveVisualizer:
             cv2.rectangle(
                 frame,
                 (
-                    x-BAR_WIDTH//2,
-                    WAVE_Y-h
+                    x - BAR_WIDTH // 2,
+                    WAVE_Y - int(h)
                 ),
                 (
-                    x+BAR_WIDTH//2,
-                    WAVE_Y+h
+                    x + BAR_WIDTH // 2,
+                    WAVE_Y + int(h)
                 ),
                 WAVE_COLOR,
                 -1
@@ -479,41 +576,81 @@ class VideoRenderer:
             subtitle,
             waveform
     ):
+        self.thumbnail = ThumbnailManager(
+            THUMBNAIL,
+            WIDTH,
+            HEIGHT,
+            FPS,
+            duration=2.0,
+            zoom_start=1.0,
+            zoom_end=1.05,
+            pan_x=0.5,
+            pan_y=0.5
+        )
 
         self.total_frames=int(duration*FPS)
         self.background=Background()
         self.subtitle=subtitle
         self.waveform=waveform
+        
+    def blend(self, img1, img2, alpha):
+
+        return cv2.addWeighted(
+            img1,
+            1 - alpha,
+            img2,
+            alpha,
+            0
+        )
 
     def render(self):
 
         writer=cv2.VideoWriter(
             VIDEO_NO_AUDIO,
-            cv2.VideoWriter_fourcc(
-                *"mp4v"
-            ),
-            FPS,
-            (
-                WIDTH,
-                HEIGHT
-            )
+            cv2.VideoWriter_fourcc(*"mp4v"),FPS, (WIDTH,HEIGHT)
         )
 
         print("Rendering...")
 
         for i in range(self.total_frames):
 
-            frame=self.background.get()
-
             current_time=i/FPS
+            
+            thumbnail_duration = THUMBNAIL_DURATION
+            fade_duration = 0.6
+
+            if current_time < thumbnail_duration:
+
+                thumb = self.thumbnail.get_frame(i)
+
+                bg = self.background.get()
+
+                # bắt đầu fade ở 1.4s
+                if current_time < thumbnail_duration - fade_duration:
+
+                    frame = thumb
+
+                else:
+                    t = (
+                        current_time
+                        - (thumbnail_duration - fade_duration)
+                    ) / fade_duration
+
+                    # Ease
+                    t = t * t * (3 - 2 * t)
+
+                    frame = self.blend(thumb, bg, t)
+
+            else:
+                frame = self.background.get()
+            
+            if current_time > 1.6:
+
+                frame = self.subtitle.draw(frame, current_time)
+
+                frame = self.waveform.draw(frame, i)
 
             # TEXT
-
-            frame=self.subtitle.draw(frame,current_time)
-
-            # WAVE
-
-            frame=self.waveform.draw(frame,i)
 
             writer.write(frame)
 
@@ -581,10 +718,6 @@ def main():
     print("Duration:", duration)
 
     timestamp=load_timestamp()
-    # timestamp=create_timestamp(
-    # sentences,
-    # duration
-    # )
 
     print("Subtitle:", len(timestamp))
 
@@ -594,6 +727,11 @@ def main():
         print("WARNING: No timestamp found!")
 
     subtitle=SubtitleManager(timestamp)
+    
+    print("Caching subtitles...")
+
+    for item in timestamp:
+        subtitle.create_text(item["text"])
 
     wave=WaveVisualizer(AUDIO, duration)
 
