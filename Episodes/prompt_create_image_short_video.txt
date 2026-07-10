@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+{
+    "en": [
+        "Support",
+        "Be there when someone needs you.",
+        "A little help can make a big difference.",
+        "Share kindness and positive energy every day.",
+        "Together, we make the world a better place."
+    ],
+    "vi": [
+        "Sự sẻ chia",
+        "Hãy ở bên khi ai đó cần bạn.",
+        "Một sự giúp đỡ nhỏ có thể tạo nên khác biệt lớn.",
+        "Hãy lan tỏa lòng tốt và năng lượng tích cực mỗi ngày.",
+        "Cùng nhau, chúng ta làm thế giới trở nên tốt đẹp hơn."
+    ]
+}   phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)
+   tạo ảnh không trùng với ảnh trước đó

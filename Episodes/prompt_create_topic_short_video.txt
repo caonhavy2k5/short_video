@@ -1,0 +1,18 @@
+Reading – Đọc sách mỗi ngày.   tạo một một động lực theo chủ đề:. dài khoảng 4 câu, thật ý nghĩa, dạng: dialogue = {
+    "en": [
+        "Trust",
+        "Trust is the foundation of every bond.",
+        "Consistency in actions builds true reliability.",
+        "Honesty is the bridge between two hearts.",
+        "It takes time to earn and moments to lose.",
+        
+    ],
+    "vi": [
+        "Xây dựng niềm tin",
+        "Tin tưởng là nền tảng của mọi mối quan hệ.",
+        "Sự nhất quán trong hành động xây dựng lòng tin.",
+        "Sự chân thành là chiếc cầu nối giữa hai trái tim.",
+        "Cần nhiều thời gian để xây dựng và chỉ giây lát để đánh mất.",
+        "
+    ]
+} mỗi câu phải xuống dòng mới như mẫu, và dùng câu đơn giản
