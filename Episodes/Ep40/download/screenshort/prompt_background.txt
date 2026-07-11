@@ -1,0 +1,20 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Practice every day",
+        "Small steps each day create big changes.",
+        "Discipline turns effort into lasting strength.",
+        "Patience makes progress feel lighter.",
+        "Daily practice is the key to growth."
+    ],
+    "vi": [
+        "Luyện tập mỗi ngày",
+        "Những bước nhỏ mỗi ngày tạo nên thay đổi lớn.",
+        "Kỷ luật biến nỗ lực thành sức mạnh bền lâu.",
+        "Kiên nhẫn khiến tiến bộ trở nên nhẹ nhàng.",
+        "Luyện tập hằng ngày là chìa khóa để trưởng thành."
+    ]
+}
+phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)       
+   tạo ảnh không trùng với ảnh trước đó

@@ -1,0 +1,21 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Celebrate progress",
+        "Every step forward deserves recognition.",
+        "Progress is proof that effort works.",
+        "Small wins lead to big victories.",
+        "Growth is worth celebrating every day."
+    ],
+    "vi": [
+        "Trân trọng sự tiến bộ",
+        "Mỗi bước tiến đều xứng đáng được ghi nhận.",
+        "Tiến bộ là minh chứng cho nỗ lực.",
+        "Những chiến thắng nhỏ dẫn đến thành công lớn.",
+        "Sự trưởng thành đáng được trân trọng mỗi ngày."
+    ]
+}
+
+phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)       
+   tạo ảnh không trùng với ảnh trước đó

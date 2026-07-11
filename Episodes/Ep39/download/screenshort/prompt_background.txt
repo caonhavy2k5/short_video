@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Ask Questions",
+        "Asking questions is the key to unlocking knowledge.",
+        "Stay curious and never stop seeking the truth.",
+        "A simple question can change your perspective forever.",
+        "Be brave enough to ask what you do not know."
+    ],
+    "vi": [
+        "Đừng ngại đặt câu hỏi",
+        "Đặt câu hỏi là chìa khóa để mở ra tri thức.",
+        "Hãy luôn tò mò và không ngừng tìm kiếm sự thật.",
+        "Một câu hỏi đơn giản có thể thay đổi góc nhìn của bạn mãi mãi.",
+        "Hãy dũng cảm hỏi về những điều bạn chưa biết."
+    ]
+}phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)       
+   tạo ảnh không trùng với ảnh trước đó

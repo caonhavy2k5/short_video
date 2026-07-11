@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Learn from Mistakes",
+        "Every mistake is a lesson in disguise.",
+        "Embrace failure as a step toward success.",
+        "Growth happens when you choose to try again.",
+        "Turn your challenges into your greatest strengths."
+    ],
+    "vi": [
+        "Học từ sai lầm",
+        "Mỗi sai lầm đều là một bài học ẩn giấu.",
+        "Hãy coi thất bại là một bước tiến đến thành công.",
+        "Sự trưởng thành đến khi bạn chọn thử lại lần nữa.",
+        "Biến những thử thách thành sức mạnh lớn nhất của bạn."
+    ]
+}phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)      
+   tạo ảnh không trùng với ảnh trước đó
