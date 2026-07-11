@@ -1,0 +1,1 @@
+Bạn tạo một file văn bản chứa lời bài hát kèm bản dịch theo mốc thời gian (timestamp) mà mình đã thiết lập cho bài hát
