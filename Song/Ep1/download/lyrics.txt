@@ -1,0 +1,33 @@
+[0.0:2.6] The sun is up, the sky is blue.
+[0.0:2.6] Mặt trời đã lên, bầu trời xanh ngắt.
+
+[2.7:5.3] I wake up now, I see you too.
+[2.7:5.3] Mình thức dậy thôi, mình thấy bạn rồi.
+
+[5.4:8.0] The morning air is fresh and sweet.
+[5.4:8.0] Không khí buổi sáng thật trong lành và ngọt ngào.
+
+[8.1:10.7] A happy day for you and me.
+[8.1:10.7] Một ngày vui vẻ cho bạn và cho mình.
+
+[10.8:13.4] Look at the light, look at the day.
+[10.8:13.4] Nhìn ánh sáng kìa, nhìn ngày mới kìa.
+
+[13.5:16.1] Everything is okay, okay.
+[13.5:16.1] Mọi thứ đều ổn, đều ổn cả thôi.
+
+[16.2:18.8] Good morning! (Good morning!)
+[16.2:18.8] Chào buổi sáng! (Chào buổi sáng!)
+
+[18.9:21.5] The sun is bright today.
+[18.9:21.5] Mặt trời hôm nay thật rạng rỡ.
+
+[21.6:24.2] Smile, smile, everything is okay.
+[21.6:24.2] Cười lên, cười lên, mọi thứ đều ổn.
+
+[24.3:26.9] Wake up, wake up, it’s a brand new day.
+[24.3:26.9] Thức dậy thôi, thức dậy thôi, một ngày mới bắt đầu.
+
+[27.0:29.6] Let’s go, let’s go, in a happy way.
+[27.0:29.6] Cùng đi thôi, cùng đi thôi, với thật nhiều niềm vui.
+
