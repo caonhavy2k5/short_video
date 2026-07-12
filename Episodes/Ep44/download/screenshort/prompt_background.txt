@@ -1,0 +1,21 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Take responsibility",
+        "Responsibility means owning your choices.",
+        "It shows strength when you admit mistakes.",
+        "Actions speak louder than excuses.",
+        "True growth begins with accountability."
+    ],
+    "vi": [
+        "Chịu trách nhiệm",
+        "Trách nhiệm là tự nhận lấy lựa chọn của mình.",
+        "Sức mạnh thể hiện khi bạn dám thừa nhận sai lầm.",
+        "Hành động có giá trị hơn lời biện minh.",
+        "Sự trưởng thành bắt đầu từ tinh thần trách nhiệm."
+    ]
+}
+
+  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)
+   tạo ảnh không trùng với ảnh trước đó, kiểu như, đó là lỗi của tôi, phong cách gần hoạt hình
