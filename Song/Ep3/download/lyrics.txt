@@ -1,0 +1,29 @@
+[4.0:6.0] Hello, sun is shining bright
+[4.0:6.0] Xin chào, mặt trời đang tỏa sáng rực rỡ
+
+[6.0:8.0] Hi, my dear mother
+[6.0:8.0] Chào mẹ yêu của con
+
+[8.0:10.0] Good morning, my father
+[8.0:10.0] Chào buổi sáng bố ạ
+
+[10.0:12.0] This is my happy family
+[10.0:12.0] Đây là gia đình hạnh phúc của con
+
+[12.0:14.0] (Ooh-ooh-ooh)
+[12.0:14.0] (Ooh-ooh-ooh)
+
+[14.0:16.0] Here is my sweet sister
+[14.0:16.0] Đây là chị gái ngọt ngào của con
+
+[16.0:18.0] And my playful brother
+[16.0:18.0] Và anh trai tinh nghịch của con
+
+[18.0:20.0] We love each other
+[18.0:20.0] Chúng con yêu thương nhau
+
+[20.0:22.0] (Aah-aah-aah)
+[20.0:22.0] (Aah-aah-aah)
+
+[22.0:24.0] Goodbye, have a happy day!
+[22.0:24.0] Tạm biệt, chúc một ngày vui vẻ!

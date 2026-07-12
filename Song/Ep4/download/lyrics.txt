@@ -1,0 +1,20 @@
+[0.0:3.8] Oh, what a lovely day...
+[0.0:3.8] Ồ, thật là một ngày đáng yêu...
+
+[4.0:7.8] Hello friend, let's go and play.
+[4.0:7.8] Chào bạn nhé, chúng mình cùng đi chơi nào.
+
+[8.0:11.8] Together, we can laugh so loud,
+[8.0:11.8] Cùng nhau, chúng ta có thể cười thật to,
+
+[12.0:15.8] We'll find our friends in every crowd.
+[12.0:15.8] Chúng ta sẽ tìm thấy bạn bè trong mọi đám đông.
+
+[16.0:19.8] If someone needs a helping hand,
+[16.0:19.8] Nếu ai đó cần một bàn tay giúp đỡ,
+
+[20.0:23.8] We'll help them out and understand.
+[20.0:23.8] Chúng ta sẽ giúp họ và thấu hiểu.
+
+[24.0:27.8] What a happy day with you!
+[24.0:27.8] Thật là một ngày hạnh phúc khi có bạn!

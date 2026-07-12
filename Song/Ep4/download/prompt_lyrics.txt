@@ -1,0 +1,20 @@
+Bạn tạo một file văn bản chứa lời bài hát kèm bản dịch theo mốc thời gian (timestamp) mà mình đã thiết lập cho bài hát mới: A Helping Hand dạng sau: [0.0:3.8] Waking up to the morning sun,
+[0.0:3.8] Thức dậy đón ánh mặt trời buổi sáng,
+
+[4.0:7.8] Time for my routine to have some fun.
+[4.0:7.8] Đã đến lúc thực hiện thói quen đầy thú vị.
+
+[8.0:11.8] First I brush my teeth so white,
+[8.0:11.8] Đầu tiên mình đánh răng thật trắng,
+
+[12.0:15.8] Then I wash my face so bright.
+[12.0:15.8] Sau đó mình rửa mặt thật tươi sáng.
+
+[16.0:19.8] Eat my breakfast, ready to go,
+[16.0:19.8] Ăn sáng thôi, sẵn sàng để đi nào,
+
+[20.0:23.8] To school or work, watch me grow!
+[20.0:23.8] Đến trường hay đi làm, hãy nhìn mình khôn lớn nhé!
+
+[24.0:27.8] Oh, what a happy day!
+[24.0:27.8] Ồ, thật là một ngày hạnh phúc!
