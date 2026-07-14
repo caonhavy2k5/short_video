@@ -1,0 +1,23 @@
+[0.0:3.5] (Whistle intro) yeah! oh, what a happy morning! let's go!
+[0.0:3.5] (Tiếng huýt sáo) yeah! ồ, thật là một buổi sáng hạnh phúc! đi thôi nào!
+
+[3.5:7.0] The sun is out, it's sunny and bright,
+[3.5:7.0] Mặt trời đã lên, trời nắng và rực rỡ,
+
+[7.0:10.5] Oh look, a cloud, it's cloudy and white.
+[7.0:10.5] Ồ nhìn kìa, một đám mây, trời nhiều mây và trắng xóa.
+
+[10.5:14.0] (Chorus) sunny, rainy, windy, cloudy,
+[10.5:14.0] (Điệp khúc) trời nắng, trời mưa, trời gió, trời nhiều mây,
+
+[14.0:17.5] Weather is fun for everyone!
+[14.0:17.5] Thời tiết thật thú vị cho mọi người!
+
+[17.5:21.0] Rainy day, splash in the blue,
+[17.5:21.0] Ngày mưa, vẫy vùng trong màu xanh,
+
+[21.0:24.5] Windy day, blow it all through!
+[21.0:24.5] Ngày gió, thổi bay mọi thứ đi nào!
+
+[24.5:28.0] (Whistle outro) yeah!
+[24.5:28.0] (Tiếng huýt sáo) yeah!
