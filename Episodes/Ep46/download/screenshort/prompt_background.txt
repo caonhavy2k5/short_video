@@ -1,0 +1,20 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Persistence",
+        "Keep moving forward even when things get tough.",
+        "Small steps taken every day lead to big results.",
+        "Success belongs to those who never give up.",
+        "Your hard work will pay off in time."
+    ],
+    "vi": [
+        "Kiên trì",
+        "Hãy tiếp tục tiến về phía trước dù mọi việc khó khăn.",
+        "Những bước nhỏ mỗi ngày sẽ dẫn đến thành quả lớn.",
+        "Thành công thuộc về những người không bao giờ bỏ cuộc.",
+        "Sự nỗ lực của bạn rồi sẽ được đền đáp xứng đáng."
+    ]
+} 
+   phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)
+   tạo ảnh không trùng với ảnh trước đó và đầy ý nghĩa  nhé
