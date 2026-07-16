@@ -1,0 +1,20 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+dialogue = {
+    "en": [
+        "Learn from Winners",
+        "Winners grow by learning every day.",
+        "Study their habits, not just their success.",
+        "Use their lessons to improve yourself.",
+        "Your future changes when you keep learning."
+    ],
+    "vi": [
+        "Học hỏi từ người thành công",
+        "Người thành công luôn học hỏi mỗi ngày.",
+        "Hãy học thói quen của họ, không chỉ nhìn vào thành công.",
+        "Dùng những bài học của họ để hoàn thiện bản thân.",
+        "Tương lai của bạn thay đổi khi bạn không ngừng học hỏi."
+    ]
+} 
+   phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)
+   tạo ảnh không trùng với ảnh trước đó và đầy ý nghĩa  nhé
