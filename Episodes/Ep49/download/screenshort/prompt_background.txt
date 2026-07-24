@@ -1,0 +1,19 @@
+Bạn tạo giúp mình 1 ảnh tỉ lệ 9:16 nhưng ảnh chỉ xuất hiện 1/5 
+màn hình bắt đầu từ mép trên cùng của màn hình theo chiều cao, và chiều ngang thì lấy hết màn hình, phần còn lại để nền trắng để chèn text, ảnh miêu tả nội dung:
+{
+    "en": [
+        "Smile More",
+        "A smile can brighten even the darkest day.",
+        "Joy is contagious and spreads to those around you.",
+        "Smiling lightens your heart and eases your mind.",
+        "Choose to wear a smile and change your world."
+    ],
+    "vi": [
+        "Mỉm cười nhiều hơn",
+        "Nụ cười có thể thắp sáng cả ngày u ám nhất.",
+        "Niềm vui dễ lan tỏa đến những người xung quanh.",
+        "Mỉm cười giúp lòng nhẹ nhàng và tâm thanh thản.",
+        "Hãy chọn nụ cười để thay đổi thế giới của bạn."
+    ]
+}  phần còn lại để trống hoàn toàn(không vẽ bất cứ vật hay chữ nào)
+   tạo ảnh không trùng với ảnh trước đó, ảnh phải thể hiện đúng tinh thần của nội dung của văn bản
